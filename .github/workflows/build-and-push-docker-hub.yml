@@ -2,6 +2,7 @@ name: Build, Push, Ssh, Pull, Down, Up
 
 on: [push]
 
+
 jobs:
   build-and-push:
     name: Build
@@ -29,7 +30,7 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: nguyenhuy7777777/cicd2024:staging
+          tags: nguyenhuy7777777/cicd2024:staging2
 
 
   pull-and-up:
